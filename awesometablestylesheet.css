@@ -52,11 +52,11 @@
 	color:#222;
 }
 .google-visualization-controls-stringfilter INPUT:hover {
-	border:1px solid #b9b9b9;
+	border:1px solid #00925A;
 	border-top:1px solid #a0a0a0;
 }
 .google-visualization-controls-stringfilter INPUT:focus {
-	border:1px solid #4d90fe;
+	border:1px solid #00925A;
 }
 
 /** CategoryFilter **/
@@ -66,10 +66,10 @@
 	color:#444;
 	border:1px solid rgba(0,0,0,0.1);
 	background:none;
-	background:#f5f5f5;
+	background:#00925A;
 }
 .google-visualization-controls-categoryfilter LI{
-	background-color:#D2D8E6!important;
+	background-color:#00925A!important;
 }
 
 /* CategoryFilter & csvFilter hovered item in the dropdown */
@@ -87,14 +87,7 @@
 }
 /* label showing the current thumb value */
 .google-visualization-controls-rangefilter-thumblabel {
-	color:#444444!important;
-}
-.footer {
-	display:none;
-}
-
-.site-footer {
-    display: none;
+	color:#00925A!important;
 }
 
 
