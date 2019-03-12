@@ -1,93 +1,76 @@
 /*** Awesome Table ***/
 
 /* filtered results information : last - first / total number of result */
-.count {
-	border-top:1px solid #E5E5E5;
-	border-bottom:1px solid #E5E5E5;
+   thead {
+        display:none!important;
+    }
+
+.frame {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding:10px 20px 10px 10px!important;
+    float:left;
 }
 
-/* loader progress bar */
-.loader {
-	background-color:#db4437;
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle!important;
+    padding:0px!important;
+    margin-left:-4px!important;
 }
 
-/** Card view specific **/
-.viewCards .google-visualization-table-table {
-	background-color: transparent!important;
+img {
+    vertical-align: middle!important;
+    max-height:100%;
+    max-width:100%;
+    padding:0px!important;
 }
-.viewCards .google-visualization-table-td {
-	border-color: #D8D8D8!important;
+.feature {
+border-right-color:#FDD067;
 }
-
-/*** Google visualization override ***/
-
-/* page number display */
-.google-visualization-table-page-numbers {
-	display:none !important;
+.Information {
+border-right-color:#ED423A;
 }
-
-/* Table view header */
-.google-visualization-table-table .gradient,
-.google-visualization-table-div-page .gradient {
-	background: #00925A !important;
-	color:#00925A;
+.Release {
+border-right-color:#1BA862;
 }
 
-/* selected/hovered row in a TABLE view */
 .google-visualization-table-tr-sel td,
 .google-visualization-table-tr-over td {
-	background-color: #00925A!important;
+        background-color: #D6E9F8!important;
 }
-
-/*** Configuration of FILTERS ***/
-
-/** Labels of filters **/
-.google-visualization-controls-label {
-	color:#333;
+.loader {
+        background-color:#437AF8;
 }
-
-/** StringFilter **/
-.google-visualization-controls-stringfilter INPUT {
-	border:1px solid #d9d9d9!important;
-	color:#222;
+/* loader progress bar */
+.loader {
+        background-color:#437AF8;
 }
-.google-visualization-controls-stringfilter INPUT:hover {
-	border:1px solid #00925A;
-	border-top:1px solid #a0a0a0;
-}
-.google-visualization-controls-stringfilter INPUT:focus {
-	border:1px solid #00925A;
-}
-
-/** CategoryFilter **/
-.google-visualization-controls-categoryfilter .charts-menu-button,
-.google-visualization-controls-categoryfilter .charts-menu-button.charts-menu-button-hover,
-.google-visualization-controls-categoryfilter .charts-menu-button.charts-menu-button-active {
-	color:#444;
-	border:1px solid rgba(0,0,0,0.1);
-	background:none;
-	background:#00925A;
-}
-.google-visualization-controls-categoryfilter LI{
-	background-color:#00925A!important;
-}
-
 /* CategoryFilter & csvFilter hovered item in the dropdown */
 .charts-menuitem-highlight {
-	background-color:#FFFFCC!important;
-	border-color:#FFFFCC!important;
+        background-color:#437AF8!important;
+        border-color:#0288d1!important;
+        color:#FFF;
+}
+.google-visualization-controls-categoryfilter LI{
+        background-color:#3C81F8!important;
+        color:#FFF;
+        height:25px;
+        vertical-align: middle;
+        border-radius: 5px;
+        line-height:25px;
+
+        }
+.charts-menuitem-highlight>.charts-menuitem-content {
+color: white;
 }
 
-/** NumberRangeFilter **/
-/* slider thumbs */
-.google-visualization-controls-slider-horizontal .google-visualization-controls-slider-thumb,
-.google-visualization-controls-slider-vertical .google-visualization-controls-slider-thumb {
-	background-color: #6D6E6E;
-	border: 1px solid #444444;
-}
-/* label showing the current thumb value */
-.google-visualization-controls-rangefilter-thumblabel {
-	color:#00925A!important;
-}
+.content {
+border-right-width:8px;
+border-right-style:solid;
+min-height:99px;
+cursor: pointer; cursor: hand;
 
-
+}
